@@ -1,18 +1,24 @@
 package gb.HomeWork2.Engines;
 
-public class ElectricEngine extends Engine {
+public class ElectricEngine extends AbstractEngine {
     @Override
     protected void StartInternal() {
-        System.out.println("Электрический двигатель запущен");
+        Log("Электрический двигатель запущен");
     }
 
     @Override
     protected void StopInternal() {
-        System.out.println("Электрический двигатель остановлен");
+        Log("Электрический двигатель остановлен");
     }
 
     @Override
     protected void SetPowerInternal(int level) {
-        System.out.printf("ШИМ двигателя %d%%%n", level);
+        Log(String.format("ШИМ двигателя %d%%", level));
+    }
+
+    @Override
+    public boolean Check() {
+        Log("Электрический двигатель исправен");
+        return true;
     }
 }

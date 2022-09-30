@@ -1,18 +1,24 @@
 package gb.HomeWork2.Engines;
 
-public class DizelEngine extends Engine {
+public class DizelEngine extends AbstractEngine {
     @Override
     protected void StartInternal() {
-        System.out.println("Дизельный двигатель запущен");
+        Log("Дизельный двигатель запущен");
     }
 
     @Override
     protected void StopInternal() {
-        System.out.println("Дизельный двигатель остановлен");
+        Log("Дизельный двигатель остановлен");
     }
 
     @Override
     protected void SetPowerInternal(int level) {
-        System.out.printf("Подача топлива %d%%%n", level);
+        Log(String.format("Подача топлива %d%%", level));
+    }
+
+    @Override
+    public boolean Check() {
+        Log("Дизельный двигатель исправен");
+        return true;
     }
 }

@@ -1,18 +1,24 @@
 package gb.HomeWork2.Engines;
 
-public class GazEngine extends Engine{
+public class GazEngine extends AbstractEngine {
     @Override
     protected void StartInternal() {
-        System.out.println("Бензиновый двигатель запущен");
+        Log("Бензиновый двигатель запущен");
     }
 
     @Override
     protected void StopInternal() {
-        System.out.println("Бензиновый двигатель остановлен");
+        Log("Бензиновый двигатель остановлен");
     }
 
     @Override
     protected void SetPowerInternal(int level) {
-        System.out.printf("Дроссельная заслонка открыта на %d%%%n", level);
+        Log(String.format("Дроссельная заслонка открыта на %d%%", level));
+    }
+
+    @Override
+    public boolean Check() {
+        Log("Бензиновый двигатель исправен");
+        return true;
     }
 }

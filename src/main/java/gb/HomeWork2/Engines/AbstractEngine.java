@@ -1,6 +1,8 @@
 package gb.HomeWork2.Engines;
 
-public abstract class Engine {
+import gb.HomeWork2.Checkable;
+
+public abstract class AbstractEngine implements Checkable {
     private Boolean work;
 
     public void Start () {
@@ -27,5 +29,9 @@ public abstract class Engine {
 
     public Boolean getWork() {
         return work;
+    }
+
+    public void Log(String message) {
+        System.out.println("Engine: " + message);
     }
 }
