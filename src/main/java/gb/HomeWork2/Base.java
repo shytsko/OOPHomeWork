@@ -1,16 +1,17 @@
 package gb.HomeWork2;
 
 import gb.HomeWork2.Engines.AbstractEngine;
-import gb.HomeWork2.Engines.DizelEngine;
 import gb.HomeWork2.Engines.ElectricEngine;
-import gb.HomeWork2.Engines.GazEngine;
+import gb.HomeWork2.Transmissions.AbstractTransmission;
+import gb.HomeWork2.Transmissions.AutomaticTransmission;
+import gb.HomeWork2.Transmissions.ManualTransmission;
 
 import java.util.List;
 
 public class Base {
     private AbstractEngine engine;
     private Wheel[] wheels;
-    private Transmission transmission;
+    private AbstractTransmission transmission;
 
     public Base() {
         engine = new ElectricEngine();
@@ -19,7 +20,7 @@ public class Base {
         wheels[1] = new Wheel("Переднее левое");
         wheels[2] = new Wheel("Заднее правое");
         wheels[3] = new Wheel("Заднее левое");
-        transmission = new Transmission();
+        transmission = new AutomaticTransmission();
     }
 
     public List<Checkable> GetCheckable() {

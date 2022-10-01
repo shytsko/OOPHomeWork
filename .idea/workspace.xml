@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43cb1a14-fb45-4768-8a53-9d8f60853433" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Checkable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Steering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Transmission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Wheel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Сonditioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Transmissions/AutomaticTransmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Transmissions/ManualTransmission.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Engines/DizelEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Engines/DizelEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Engines/ElectricEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Engines/ElectricEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Engines/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Engines/AbstractEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Engines/GazEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Engines/GazEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Transmission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Transmissions/AbstractTransmission.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,20 +36,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/shyts/Documents/GB/Java/OOPHomeWork/src/main/java/gb/HomeWork2",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shyts/Documents/GB/Java/OOPHomeWork/src/main/java/gb/HomeWork2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shyts\Documents\GB\Java\OOPHomeWork\src\main\java\gb\HomeWork2" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="gb.HomeWork2.Transmissions" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="gb.HomeWork2" />
@@ -96,7 +90,7 @@
       <module name="OOPHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gb.HomeWork2.*" />
+          <option name="PATTERN" value="gb.HomeWork2.Transmissions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
