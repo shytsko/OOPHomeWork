@@ -34,7 +34,7 @@ public class ManualTransmission extends AbstractTransmission {
         if (this.currentGear == 1 || this.currentGear == 3 || this.currentGear == 5)
             Log("Рычаг вниз");
         else if (this.currentGear == 2 || this.currentGear == 4 || this.currentGear == -1) {
-            Log("Рычаг вниз");
+            Log("Рычаг вверх");
         }
         Log("Коробка передач в нейтральном положении");
         this.currentGear = 0;
@@ -83,7 +83,7 @@ public class ManualTransmission extends AbstractTransmission {
     private void SetReverseGear() {
         if(this.currentGear != 0)
             SetNeutral();
-        Log("Разблокировать фиксатор. Рычаг вправо и вниз");
+        Log("Разблокировать огпаничитель. Рычаг вправо и вниз");
         Log("Включена задняя передача");
         this.currentGear = -1;
     }

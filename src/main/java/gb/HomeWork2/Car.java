@@ -1,4 +1,4 @@
-//Придумать ешё один пример использхования абстрактного класса и интерфейса.
+// Придумать ешё один пример использования абстрактного класса и интерфейса.
 // Основываясь на коде с урока
 
 package gb.HomeWork2;
@@ -38,8 +38,15 @@ public class Car {
     public boolean CheckAll(){
         boolean allCorrect=true;
         for (Checkable component : checkList) {
-            if(!component.Check())
-                allCorrect = false;
+            if(!component.Check()) {
+                if(component instanceof Repairable) {
+                    ((Repairable) component).Repair();
+                    if(!component.Check())
+                        allCorrect = false;
+                }
+                else
+                    allCorrect = false;
+            }
         }
         return allCorrect;
     }
@@ -96,7 +103,10 @@ public class Car {
 
     public static void main(String[] args) {
         Car car = new Car();
+        System.out.println("---------------------");
         if(car.CheckAll()) {
+            System.out.println("---------------------");
+            System.out.println("Можно ехать");
             car.Start();
             car.BeginMove();
             car.TurnLeft(20);
@@ -104,6 +114,10 @@ public class Car {
             car.TurnRight(10);
             car.EndMove();
             car.Stop();
+        }
+        else {
+            System.out.println("---------------------");
+            System.out.println("Автомобиль не исправен, ехать нельзя!!!");
         }
     }
 

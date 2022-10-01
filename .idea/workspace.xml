@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43cb1a14-fb45-4768-8a53-9d8f60853433" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Transmissions/AutomaticTransmission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Transmissions/ManualTransmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Repairable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Transmission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Transmissions/AbstractTransmission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Wheel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Сonditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Сonditioner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
