@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43cb1a14-fb45-4768-8a53-9d8f60853433" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Repairable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork3/Task1/MyRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork3/Task1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork3/Task2/ComparatorPersonByAgeName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork3/Task2/ComparatorPersonByHeightWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork3/Task2/Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Wheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Сonditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork2/Сonditioner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,7 +59,7 @@
       <recent name="gb.HomeWork2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.gb.HomeWork2.Car">
+  <component name="RunManager" selected="Application.Task2">
     <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gb.HomeWork1.Base" />
       <module name="OOPHomeWork" />
@@ -85,6 +86,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gb.HomeWork3.Task1.Task1" />
+      <module name="OOPHomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gb.HomeWork3.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gb.HomeWork3.Task2.Task2" />
+      <module name="OOPHomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gb.HomeWork3.Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="gb.HomeWork2.Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gb.HomeWork2.Car" />
       <module name="OOPHomeWork" />
@@ -100,6 +127,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.gb.HomeWork2.Car" />
         <item itemvalue="Application.Car" />
         <item itemvalue="Application.Base" />
