@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43cb1a14-fb45-4768-8a53-9d8f60853433" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork4/Fruits/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork4/Fruits/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork4/Fruits/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork4/Fruits/FruitGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork4/Fruits/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork4/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/ConsoleView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +58,13 @@
       <recent name="gb.HomeWork2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Run">
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gb.HomeWork1.Car" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gb.HomeWork5.Calculator.Main" />
       <module name="OOPHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gb.HomeWork1.*" />
+          <option name="PATTERN" value="gb.HomeWork5.Calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Run" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.gb.HomeWork2.Car" />
-        <item itemvalue="Application.Car" />
       </list>
     </recent_temporary>
   </component>
