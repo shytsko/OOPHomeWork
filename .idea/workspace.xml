@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43cb1a14-fb45-4768-8a53-9d8f60853433" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/ConsoleView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/ConsoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +36,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shyts/Documents/GB/Java/OOPHomeWork/src/main/java/gb/HomeWork2&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/123/OOPHomeWork",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shyts\Documents\GB\Java\OOPHomeWork\src\main\java\gb\HomeWork2" />
@@ -59,6 +59,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gb.HomeWork1.Car" />
+      <module name="OOPHomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gb.HomeWork1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gb.HomeWork5.Calculator.Main" />
       <module name="OOPHomeWork" />
@@ -111,26 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gb.HomeWork2.Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gb.HomeWork2.Car" />
-      <module name="OOPHomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gb.HomeWork2.Transmissions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Car" />
         <item itemvalue="Application.Run" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.gb.HomeWork2.Car" />
       </list>
     </recent_temporary>
   </component>
