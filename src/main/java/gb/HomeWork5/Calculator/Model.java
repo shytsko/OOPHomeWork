@@ -8,10 +8,10 @@ public class Model {
     private double operand2;
     private String operator;
 
-    private Set<String> operators;
+    private Set<String> supportOperators;
 
     public Model() {
-        this.operators = new HashSet<>(Set.of("+", "-", "*", "/"));
+        this.supportOperators = new HashSet<>(Set.of("+", "-", "*", "/"));
         this.operand1 = 0;
         this.operand2 = 0;
         this.operator = "+";
@@ -29,8 +29,8 @@ public class Model {
         this.operator = operator;
     }
 
-    public Set<String> GetTrueOperators() {
-        return operators;
+    public Set<String> GetSupportOperators() {
+        return supportOperators;
     }
 
     public double Calculate() {

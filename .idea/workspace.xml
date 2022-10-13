@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43cb1a14-fb45-4768-8a53-9d8f60853433" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/ConsoleView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/HomeWork5/Calculator/Presenter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
